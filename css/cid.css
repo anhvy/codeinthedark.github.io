@@ -1,3 +1,13 @@
+.instructions-button {
+  width: 250px;
+  background-color: #59ca8f;
+  -moz-animation: fadein 2s 1s both; /* Firefox */
+  -webkit-animation: fadein 2s 1s both; /* Safari and Chrome */
+  -o-animation: fadein 2s 1s both; /* Opera */
+  animation: fadein 2s 1s both;
+  cursor: pointer;
+}
+
 body {
     background-color: #000;
     background-image: url("../img/top-background.png");
@@ -54,7 +64,7 @@ li, h3 {
 #logo {
     max-width: 35%;
     min-width: 280px;
-    margin: 5% 0 5%;
+    margin: 8% 0 5%;
     -moz-animation: fadein 2s 1s both; /* Firefox */
     -webkit-animation: fadein 2s 1s both; /* Safari and Chrome */
     -o-animation: fadein 2s 1s both; /* Opera */
